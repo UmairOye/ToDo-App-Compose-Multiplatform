@@ -34,9 +34,8 @@ A **notes and tasks** app built with **Kotlin Multiplatform** and **Compose Mult
 
 ## Screenshots
 
-docs/screenshots/todo_app_compose_multiplatform_1.png) | (docs/screenshots/todo_app_compose_multiplatform_1.png) 
+<img  src="https://github.com/UmairOye/ToDo-App-Compose-Multiplatform/blob/main/docs/screenshots/todo_app_compose_multiplatform_1.png" alt="Image" > <img src="https://github.com/UmairOye/ToDo-App-Compose-Multiplatform/blob/main/docs/screenshots/todo_app_compose_multiplatform_1.png.png" alt="Image" > 
 
----
 
 ## Project Structure
 
