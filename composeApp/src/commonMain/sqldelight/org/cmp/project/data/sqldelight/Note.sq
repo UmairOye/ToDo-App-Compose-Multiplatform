@@ -1,0 +1,33 @@
+CREATE TABLE NoteEntity (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    content TEXT NOT NULL,
+    priority TEXT NOT NULL,
+    reminderDate TEXT NOT NULL
+);
+
+insertNote:
+INSERT INTO NoteEntity(title, content, priority, reminderDate)
+VALUES (?, ?,?,?);
+
+getAllNotes:
+SELECT * FROM NoteEntity
+ORDER BY id;
+
+deleteNote:
+DELETE FROM NoteEntity
+WHERE id = ?;
+
+updateNote:
+UPDATE NoteEntity
+SET
+    title = ?,
+    content = ?,
+    priority = ?,
+    reminderDate = ?
+WHERE id = ?;
+
+
+getNoteById:
+SELECT * FROM NoteEntity
+WHERE id = ?;
