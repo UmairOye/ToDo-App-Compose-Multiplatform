@@ -34,18 +34,7 @@ A **notes and tasks** app built with **Kotlin Multiplatform** and **Compose Mult
 
 ## Screenshots
 
-Add your app screenshots to the `docs/screenshots/` folder, then reference them below (or replace the paths once you have images).
 
-| | |
-|---|---|
-| **Home** — Notes list, search, FAB | **Add / Edit Note** — Title, priority, reminder, description |
-| ![Home](docs/screenshots/home.png) | ![Add Note](docs/screenshots/add-note.png) |
-| **Note details** — View and edit | **Onboarding** — Intro screens |
-| ![Note details](docs/screenshots/note-details.png) | ![Onboarding](docs/screenshots/onboarding.png) |
-| **Settings** — Dark theme, About | **Splash** — Liquid animation |
-| ![Settings](docs/screenshots/settings.png) | ![Splash](docs/screenshots/splash.png) |
-
-*To add screenshots:* place image files (e.g. `home.png`, `add-note.png`) in `docs/screenshots/` and ensure the filenames match the paths above.
 
 ---
 
